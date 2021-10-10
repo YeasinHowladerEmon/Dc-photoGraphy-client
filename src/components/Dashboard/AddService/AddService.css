@@ -1,0 +1,37 @@
+.add-service .submit-btn {
+    width: 100px;
+    padding: .68rem 0;
+}
+
+.add-service .upload-btn {
+    border: 1px solid #ff395a;
+    color: #ff395a;
+    max-width: 16rem;
+    text-align: center;
+}
+
+.add-service .upload-btn:hover,
+.add-service .upload-btn:active {
+    border: 2px solid #ff395a !important;
+    color: white;
+    background: linear-gradient(
+        to left top,
+        #ff2c9c,
+        #ff287b,
+        #ff395a,
+        #ff5137,
+        #ff6a00
+      );
+    border-radius: 0.25rem;
+}
+.form-main .form-control:focus{
+    border: 2px solid #ff395a !important;
+}
+.form-main .form-control{
+    border: 2px solid #ced4da; 
+    height: calc(2em + .75rem + 2px);
+    box-shadow: none;
+}
+.form-main .form-group{
+    margin-bottom: 1rem!important;
+}

@@ -1,0 +1,21 @@
+.modal-header {
+    border: none !important;
+}
+.close{
+    background: rgba(42, 40, 41, .03);
+    border: none;
+    padding: 0 .9rem;
+    border-radius: 8px;
+    font-size: 2rem;
+    color: #999;
+}
+.modal .modal-content .modal-body{
+    padding: 0 5rem 5rem;
+}
+.modal .modal-content .modal-body .row:nth-child(2) h2{
+    font-weight: 700;
+    margin-bottom: .2rem;  
+}
+.modal .modal-content .modal-body .row:nth-child(2) p{
+    color: #c4c4c4;
+}

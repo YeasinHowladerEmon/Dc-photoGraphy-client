@@ -1,0 +1,16 @@
+.single-partner {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+a {
+    display: inline-block;
+    transition: all .6s ease;
+}
+
+.single-partner img {
+    transition: all .6s ease;
+}
+.single-partner:hover img{
+    opacity: .5;
+}

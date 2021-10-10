@@ -1,0 +1,78 @@
+.funfacts-area {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-fcfbfb {
+    background-color: #f6f3f3;
+}
+
+.funfact {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    padding: 30px 0 25px;
+    border-radius: 5px;
+    transition: all .6s ease;
+}
+
+.funfact h3 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.funfact .icon {
+    font-size: 30px;
+    color: #ff2c9c;
+    line-height: 70px;
+    position: relative;
+    margin: auto auto 20px;
+    background: #f6f4fd;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 30px;
+}
+.funfact:hover {
+    margin-top: -5px;
+}
+.contact-cta-box{
+    margin: 80px auto 0;
+    max-width: 800px;
+    border: 1px dashed #ebebeb;
+    padding: 30px 210px 30px 30px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #fff;
+}
+.contact-cta-box h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.contact-cta-box p{
+    margin-bottom: 0;
+}
+.contact-cta-box .btn{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.contact-cta-box .btn{
+    padding: 12px 20px!important;
+}
+.funfacts-area .map-bg{
+    position: absolute;
+    z-index: -1;
+    top: 120px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
